@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(https://t4.ftcdn.net/jpg/03/58/36/11/360_F_358361101_z9baaIEmkyst0OQ8mov82r9hen7glZGb.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button{
+            background-color: black;
+            color: white; 
+            padding: 15px 30px;
+            font-size: 20px; 
+            border: none; 
+            cursor: pointer;
+            border-radius: 100px;
+        }
+    </style>
+<center>
+    <button onclick="openPDF('pdfcoffee.com_alfredx27s-basic-piano-library-vol1bpdf-pdf-free.pdf')">try book num 1</button>
+    <button onclick="openPDF('alfredx27s-basic-piano-library-vol1bpdf_compress.pdf')">try book num 2</button>
+    <button onclick="openPDF('toaz.info-alfredx27s-basic-piano-library-leeson-book-level-1apdf-pr_652d1e8112a5271d7f7a55b73487f048.pdf')">try book num 3</button>    
+</center>
+</body>
+<script>
+        function openPDF(filename) {
+            //  This will attempt to open the PDF in a new tab/window in the browser.
+            window.open(filename, '_blank');
+        }
+    </script>
+</html>
